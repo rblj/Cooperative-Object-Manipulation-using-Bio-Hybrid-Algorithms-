@@ -1,0 +1,396 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/PlasticCrate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotnik/summit_xl_steel/protos/SummitXlSteel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/tower_of_hanoi/protos/YoubotFlag.proto"
+
+WorldInfo {
+  FPS 31.25
+}
+Viewpoint {
+  orientation 0.0895175798690873 0.9734234339468337 -0.21079236498871579 0.8227489341553943
+  position 4.412198211807839 1.9615153647154804 10.784005289045643
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 1.95 -0.01 -1.40784e-06
+  rotation 0 1 0 4.6928012867022945e-06
+  floorSize 30 10
+  floorTileSize 2 2
+  wallHeight 2
+}
+YoubotFlag {
+  translation -11 3 0
+  name "FinishFlag"
+}
+SummitXlSteel {
+  hidden position_0_0 -3.858256558686435e-08
+  hidden position_0_1 1.292746066815852e-07
+  hidden position_0_2 3.909178027455595e-08
+  hidden position_0_3 1.277423619141271e-07
+  hidden translation_7 0.22249917724066834 -0.20449996661010172 0.0031858493219758303
+  hidden rotation_7 0.9999999999999996 -1.9291211932723924e-08 1.929128279343217e-08 1.5708000000000004
+  hidden translation_8 0.22249917815049328 0.20450003337390876 0.0031841200541326215
+  hidden rotation_8 0.9999999999999958 6.463706591515598e-08 -6.463730334079243e-08 1.5708000000000033
+  hidden translation_9 -0.22250081175304834 0.2045000329443426 0.003137893294247486
+  hidden rotation_9 0.9999999999999996 1.9545818341346426e-08 -1.954589013727797e-08 1.5708000000000004
+  hidden translation_10 -0.2225008118860134 -0.20449996703966933 0.003139622562291756
+  hidden rotation_10 0.999999999999996 6.387094634554642e-08 -6.387118095706341e-08 1.5708000000000037
+  translation 15.183220111201432 -4.048930529199268 0.08965793231423108
+  rotation -4.9590620523021615e-05 8.550996721415509e-07 0.9999999987700197 -3.094465356380804
+  name "robot5"
+  controller "summit_multi_agent"
+  supervisor TRUE
+  frontLidarSlot [
+    Lidar {
+      name "frontLidar"
+    }
+  ]
+  backLidarSlot [
+    Lidar {
+      name "backLidar"
+    }
+  ]
+  bodySlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    Camera {
+      translation 0 0.3 0.25
+      name "rgb_camera"
+      rotationStep -0.2
+      fieldOfView 1
+      width 640
+      height 480
+      near 0.05
+      far 10
+      recognition Recognition {
+      }
+    }
+  ]
+}
+SummitXlSteel {
+  hidden position_0_0 -3.8534241575405304e-08
+  hidden position_0_1 1.288327278705023e-07
+  hidden position_0_2 3.885709584490621e-08
+  hidden position_0_3 1.3268073589163597e-07
+  hidden translation_7 0.22249917724082227 -0.20449996661010172 0.00318584932197587
+  hidden rotation_7 0.9999999999999996 -1.9267050015746226e-08 1.926712078770265e-08 1.5708000000000004
+  hidden translation_8 0.22249917814908626 0.20450003337390876 0.0031841200541322585
+  hidden rotation_8 0.9999999999999958 6.44161273211688e-08 -6.441636393525098e-08 1.5708000000000042
+  hidden translation_9 -0.22250081175378475 0.2045000329443426 0.0031378932942472955
+  hidden rotation_9 0.9999999999999996 1.9428476557542788e-08 -1.9428547922453098e-08 1.5708000000000004
+  hidden translation_10 -0.22250081187050877 -0.20449996703966933 0.0031396225622957624
+  hidden rotation_10 0.9999999999999957 6.634012426448724e-08 -6.634036794581779e-08 1.5708000000000044
+  translation 15.176465068709422 2.043896275410019 0.08965796401413341
+  rotation -4.9564790321249954e-05 1.5251831866072138e-06 0.9999999987705027 -3.1189810967056313
+  name "robot2"
+  controller "summit_multi_agent"
+  supervisor TRUE
+  frontLidarSlot [
+    Lidar {
+      name "frontLidar"
+    }
+  ]
+  backLidarSlot [
+    Lidar {
+      name "backLidar"
+    }
+  ]
+  bodySlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    Camera {
+      translation 0 0.3 0.25
+      name "rgb_camera"
+      rotationStep -0.2
+      fieldOfView 1
+      width 640
+      height 480
+      near 0.05
+      far 10
+      recognition Recognition {
+      }
+    }
+  ]
+}
+Wall {
+  translation 15.9 3 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall_separator1"
+  size 0.2 1.5 0.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 15.9 -3 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall_separator4"
+  size 0.2 1.5 0.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+SummitXlSteel {
+  hidden position_0_0 -3.8540157731858926e-08
+  hidden position_0_1 1.2882252789094887e-07
+  hidden position_0_2 3.8864987320011804e-08
+  hidden position_0_3 1.3255792448874982e-07
+  hidden translation_7 0.22249917724080343 -0.20449996661010172 0.003185849321975865
+  hidden rotation_7 0.9999999999999996 -1.9270008083107427e-08 1.927007886592946e-08 1.5708000000000004
+  hidden translation_8 0.2224991781490538 0.20450003337390876 0.00318412005413225
+  hidden rotation_8 0.9999999999999958 6.441102735012536e-08 -6.441126394547421e-08 1.5708000000000042
+  hidden translation_9 -0.22250081175375996 0.2045000329443426 0.003137893294247302
+  hidden rotation_9 0.9999999999999996 1.943242228060211e-08 -1.94324936600059e-08 1.5708000000000004
+  hidden translation_10 -0.22250081187089435 -0.20449996703966933 0.0031396225622956613
+  hidden rotation_10 0.9999999999999957 6.62787187885995e-08 -6.627896224437472e-08 1.5708000000000044
+  translation 15.18182149274754 -2.2163168960694177 0.08965793887748132
+  rotation -4.956521038411939e-05 1.5144644342722785e-06 0.999999998770498 -3.118588880755986
+  name "robot4"
+  controller "summit_multi_agent"
+  supervisor TRUE
+  frontLidarSlot [
+    Lidar {
+      name "frontLidar"
+    }
+  ]
+  backLidarSlot [
+    Lidar {
+      name "backLidar"
+    }
+  ]
+  bodySlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    Camera {
+      translation 0 0.3 0.25
+      name "rgb_camera"
+      rotationStep -0.2
+      fieldOfView 1
+      width 640
+      height 480
+      near 0.05
+      far 10
+      recognition Recognition {
+      }
+    }
+  ]
+}
+Wall {
+  translation 15.9 -1 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall_separator3"
+  size 0.2 1.5 0.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+SummitXlSteel {
+  hidden position_0_0 -3.85099134803113e-08
+  hidden position_0_1 1.288655787101993e-07
+  hidden position_0_2 3.8825661914038866e-08
+  hidden position_0_3 1.3315394687514305e-07
+  hidden translation_7 0.2224991772408998 -0.20449996661010172 0.00318584932197589
+  hidden rotation_7 0.9999999999999996 -1.9254886012880194e-08 1.9254956740155645e-08 1.5708000000000004
+  hidden translation_8 0.22249917814919087 0.20450003337390876 0.0031841200541322854
+  hidden rotation_8 0.9999999999999958 6.443255268068347e-08 -6.443278935509946e-08 1.5708000000000042
+  hidden translation_9 -0.22250081175388337 0.2045000329443426 0.00313789329424727
+  hidden rotation_9 0.9999999999999996 1.9412759649840652e-08 -1.941283095701943e-08 1.5708000000000004
+  hidden translation_10 -0.22250081186902304 -0.20449996703966933 0.0031396225622961466
+  hidden rotation_10 0.9999999999999957 6.657672888714186e-08 -6.657697343757133e-08 1.5708000000000044
+  translation 15.191328309497196 -0.008299106771965095 0.08965789426386507
+  rotation -4.9563200841521954e-05 1.5657838866888005e-06 0.9999999987705186 -3.1204665508330036
+  name "robot3"
+  controller "summit_multi_agent"
+  supervisor TRUE
+  frontLidarSlot [
+    Lidar {
+      name "frontLidar"
+    }
+  ]
+  backLidarSlot [
+    Lidar {
+      name "backLidar"
+    }
+  ]
+  bodySlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    Camera {
+      translation 0 0.3 0.25
+      name "rgb_camera"
+      rotationStep -0.2
+      fieldOfView 1
+      width 640
+      height 480
+      near 0.05
+      far 10
+      recognition Recognition {
+      }
+    }
+  ]
+}
+WoodenBox {
+  translation 12 0 0.7
+  rotation -2.3394226209451777e-06 0.0008926263780220217 -0.9999996016062588 0.005288411419892102
+  name "object"
+  size 1 2 1.5
+  mass 5
+}
+OilBarrel {
+  translation -3 -1.87 0.51
+  name "oil barrel2"
+  height 1
+  radius 0.5
+}
+OilBarrel {
+  translation 6.5 -4 1
+  name "oil barrel 1"
+  height 2
+  radius 0.8
+}
+CardboardBox {
+  translation 5 4 0.31
+  size 2 2 5
+}
+Wall {
+  translation -8 2.4 0
+  name "finish_line"
+  size 0.2 5 1.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.8 -2.5 0
+  name "second_wall"
+  size 0.02 5 1.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 2.7 3.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(5)"
+  size 0.05 2.6 1.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 15.9 1 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall_separator2"
+  size 0.2 1.5 0.5
+  appearance Roughcast {
+    colorOverride 0.6 0.3 0.2
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+PlasticCrate {
+  translation 8 -3 0
+  size 1 1 1
+}
+Cat {
+  translation 5 4 0.61
+  rotation 0 0 1 -0.6544996938995746
+  scale 2
+}
+SummitXlSteel {
+  hidden position_0_0 -3.872160903028998e-08
+  hidden position_0_1 1.2884021318914408e-07
+  hidden position_0_2 3.8637512410694474e-08
+  hidden position_0_3 -1.3992728188378104e-07
+  hidden translation_7 0.22249917724022536 -0.20449996661010172 0.0031858493219757158
+  hidden rotation_7 0.9999999999999996 -1.9360733399069658e-08 1.9360804515144985e-08 1.5708000000000004
+  hidden translation_8 0.2224991781491101 0.20450003337390876 0.0031841200541322646
+  hidden rotation_8 0.9999999999999958 6.441986996674215e-08 -6.442010659457187e-08 1.5708000000000042
+  hidden translation_9 -0.22250081175447378 0.2045000329443426 0.0031378932942471172
+  hidden rotation_9 0.9999999999999996 1.931868524372369e-08 -1.9318756205347234e-08 1.5708000000000004
+  hidden translation_10 -0.22250081272639505 -0.20449996703966933 0.003139622562074322
+  hidden rotation_10 0.9999999999999952 -6.996338395155938e-08 6.996364094189031e-08 1.5708000000000049
+  translation 15.201370253086882 3.995728792424089 0.08965784713901068
+  rotation -4.956218869913224e-05 1.6198933931448155e-06 0.9999999987704827 -3.122446704033297
+  name "robot1"
+  controller "summit_multi_agent"
+  supervisor TRUE
+  frontLidarSlot [
+    Lidar {
+      name "frontLidar"
+    }
+  ]
+  backLidarSlot [
+    Lidar {
+      name "backLidar"
+    }
+  ]
+  bodySlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    Camera {
+      translation 0 0.3 0.25
+      name "rgb_camera"
+      rotationStep -0.2
+      fieldOfView 1
+      width 640
+      height 480
+      near 0.05
+      far 10
+      recognition Recognition {
+      }
+    }
+  ]
+}
