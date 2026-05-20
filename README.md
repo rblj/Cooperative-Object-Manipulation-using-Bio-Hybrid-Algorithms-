@@ -124,7 +124,7 @@ The environment was designed to evaluate the coordination capability of multiple
 ### 🐦 Flocking Birds Algorithm
 
 <p align="center">
-  <vid src="<img width="400" height="225" alt="Bio_Hybrid_Flocking" src="https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248" /><img width="400" height="225" alt="Bio_Hybrid_BeeSwarm" src="https://github.com/user-attachments/assets/ee8a7bdf-a4c4-4fa7-8e03-d0b6bdcfe58f" />
+  <vid src="<img width="400" height="225" alt="Bio_Hybrid_Flocking" src="https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248" />
 
 </p>
 
@@ -135,8 +135,7 @@ The environment was designed to evaluate the coordination capability of multiple
 ### 🐝 Bee Swarm Algorithm
 
 <p align="center">
-  <vid src="<img width="400" height="225" alt="Bio_Hybrid_Flocking" src="https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248" /><img width="400" height="225" alt="Bio_Hybrid_BeeSwarm" src="https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c" />
-
+  <vid src="<img width="400" height="225" alt="Bio_Hybrid_BeeSwarm" src="https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c" />
 </p>
 
 </td>
