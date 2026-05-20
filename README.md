@@ -52,7 +52,7 @@ compared to the standard MAPPO baseline.
 ## Simulation Robot: SUMMIT XL STEEL
 
 <p align="center">
-  <img width="341" height="235" alt="robot" src="https://github.com/user-attachments/assets/1fd7b924-ad1f-48e4-addd-e049aba0422d" />
+  <img width="500" height="235" alt="robot" src="https://github.com/user-attachments/assets/1fd7b924-ad1f-48e4-addd-e049aba0422d" />
 
 </p>
 
@@ -99,7 +99,7 @@ These components allow agents to:
 # 🌍 Simulation Environment
 
 <p align="center">
-  <img src="./images/simulation_arena.png" width="500">
+  <img width="813" height="307" alt="simulation_arena" src="https://github.com/user-attachments/assets/c4d5bf96-7167-435c-8a0f-92c242859c06" />
 </p>
 
 ## Environment Description
@@ -125,7 +125,8 @@ The environment was designed to evaluate the coordination capability of multiple
 
 ### 🐦 Flocking Birds Algorithm
 
-<img src="./images/Bio_Hybrid_Flocking.gif" width="420">
+<img width="400" height="225" alt="Bio_Hybrid_Flocking" src="https://github.com/user-attachments/assets/66a87aab-2267-44ec-b3fa-6e856f03e309" />
+
 
 </td>
 
@@ -133,7 +134,8 @@ The environment was designed to evaluate the coordination capability of multiple
 
 ### 🐝 Bee Swarm Algorithm
 
-<img src="./images/Bio_Hybrid_BeeSwarm.gif" width="420">
+<img width="400" height="225" alt="Bio_Hybrid_BeeSwarm" src="https://github.com/user-attachments/assets/de6833e4-607e-4489-b010-938ecf923361" />
+
 
 </td>
 
@@ -151,7 +153,8 @@ The environment was designed to evaluate the coordination capability of multiple
 
 <td align="center">
 
-<img src="./images/flockingbirds_vs_beeswarm.png" width="420">
+<img width="4868" height="3317" alt="flockingbirds_vs_beeswarm" src="https://github.com/user-attachments/assets/862e5882-2749-4c28-b70c-52a06677e16e" />
+
 
 <br><br>
 
@@ -161,7 +164,8 @@ The environment was designed to evaluate the coordination capability of multiple
 
 <td align="center">
 
-<img src="./images/pure_vs_bio.png" width="420">
+<img width="4869" height="3317" alt="pure_vs_bio" src="https://github.com/user-attachments/assets/7c24a982-5791-443f-819a-e362bc141267" />
+
 
 <br><br>
 
