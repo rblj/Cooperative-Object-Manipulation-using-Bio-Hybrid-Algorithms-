@@ -52,8 +52,11 @@ compared to the standard MAPPO baseline.
 ## Simulation Robot: SUMMIT XL STEEL
 
 <p align="center">
-  <img width="500" src="./images/robot.png">
+  <img width="341" height="235" alt="robot" src="https://github.com/user-attachments/assets/1fd7b924-ad1f-48e4-addd-e049aba0422d" />
+
 </p>
+
+
 
 The simulation utilizes the **SUMMIT XL STEEL** mobile robotic platform integrated within webots Environment.
 
