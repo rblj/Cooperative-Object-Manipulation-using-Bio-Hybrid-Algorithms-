@@ -115,15 +115,13 @@ The environment was designed to evaluate the coordination capability of multiple
 
 # 🎥 Early Training Trials
 
-## Initial Simulation Comparisons
-
 <table>
 <tr>
 <td align="center">
 
 ### 🐦 Flocking Birds Algorithm
 
-https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248
+<img src="./images/Bio_Hybrid_Flocking.gif" width="420">
 
 </td>
 
@@ -131,7 +129,7 @@ https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248
 
 ### 🐝 Bee Swarm Algorithm
 
-https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c
+<img src="./images/Bio_Hybrid_BeeSwarm.gif" width="420">
 
 </td>
 </tr>
@@ -144,17 +142,27 @@ https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c
 
 <table>
 <tr>
+
 <td align="center">
-<img src="images/flockingbirds_vs_beeswarm.png" width="400">
-<br>
-<b>Flocking Birds Algorithm VS Bee Swarm Algorithm</b>
+
+<img src="./images/flockingbirds_vs_beeswarm.png" width="420">
+
+<br><br>
+
+<b>Flocking Birds VS Bee Swarm</b>
+
 </td>
 
 <td align="center">
-<img src="images/pure_vs_bio.png" width="400">
-<br>
+
+<img src="./images/pure_vs_bio.png" width="420">
+
+<br><br>
+
 <b>Baseline MAPPO VS Bio-Hybrid MAPPO</b>
+
 </td>
+
 </tr>
 </table>
 
