@@ -145,7 +145,7 @@ The environment was designed to evaluate the coordination capability of multiple
 
 # 📊 Training Results & Analysis
 
-## Algorithmn Comparison
+## Algorithm Comparison
 
 <table>
 <tr>
@@ -325,7 +325,7 @@ The framework was evaluated using:
 
 # 👨‍🔬 Researchers
 
-Developed as a thesis project in Robotics, Artificial Intelligence, and Multi-Agent Systems research.
+Rubilee S. Ganoy and Nica Mae A. Cursat | Developed as a thesis project in Robotics, Artificial Intelligence, and Multi-Agent Systems research.
 
 ---
 
