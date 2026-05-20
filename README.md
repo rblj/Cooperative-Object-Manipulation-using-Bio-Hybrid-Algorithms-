@@ -52,7 +52,7 @@ compared to the standard MAPPO baseline.
 ## Simulation Robot: SUMMIT XL STEEL
 
 <p align="center">
-  <img src="images/robot.png" width="500">
+  <img src="./images/robot.png" width="500">
 </p>
 
 The simulation utilizes the **SUMMIT XL STEEL** mobile robotic platform integrated within webots Environment.
@@ -96,7 +96,7 @@ These components allow agents to:
 # 🌍 Simulation Environment
 
 <p align="center">
-  <img src="images/simulation_arena.png" width="850">
+  <img src="./images/simulation_arena.png" width="500">
 </p>
 
 ## Environment Description
@@ -123,10 +123,7 @@ The environment was designed to evaluate the coordination capability of multiple
 
 ### 🐦 Flocking Birds Algorithm
 
-<p align="center">
-  <vid src="<img width="400" height="225" alt="Bio_Hybrid_Flocking" src="https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248" />
-
-</p>
+https://github.com/user-attachments/assets/21373bc8-b83e-4be3-894a-949f03721248
 
 </td>
 
@@ -134,14 +131,11 @@ The environment was designed to evaluate the coordination capability of multiple
 
 ### 🐝 Bee Swarm Algorithm
 
-<p align="center">
-  <vid src="<img width="400" height="225" alt="Bio_Hybrid_BeeSwarm" src="https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c" />
-</p>
+https://github.com/user-attachments/assets/04176191-834b-48dc-9701-8922dff3622c
 
 </td>
 </tr>
 </table>
-
 ---
 
 # 📊 Training Results & Analysis
