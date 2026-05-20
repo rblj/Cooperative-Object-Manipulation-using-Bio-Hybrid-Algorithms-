@@ -52,7 +52,7 @@ compared to the standard MAPPO baseline.
 ## Simulation Robot: SUMMIT XL STEEL
 
 <p align="center">
-  <img width="500" height="235" alt="robot" src="https://github.com/user-attachments/assets/1fd7b924-ad1f-48e4-addd-e049aba0422d" />
+  <img width="435" height="235" alt="robot" src="https://github.com/user-attachments/assets/1fd7b924-ad1f-48e4-addd-e049aba0422d" />
 
 </p>
 
@@ -165,7 +165,6 @@ The environment was designed to evaluate the coordination capability of multiple
 <td align="center">
 
 <img width="4869" height="3317" alt="pure_vs_bio" src="https://github.com/user-attachments/assets/7c24a982-5791-443f-819a-e362bc141267" />
-
 
 <br><br>
 
@@ -338,13 +337,12 @@ The framework was evaluated using:
 
 # 👨‍🔬 Researchers
 
-Rubilee S. Ganoy and Nica Mae A. Cursat | Developed as a thesis project in Robotics, Artificial Intelligence, and Multi-Agent Systems research.
+Rubilee S. Ganoy and Nica Mae A. Cursat
 
 ---
 
 # 📜 Citation
 
 ```text
-Cooperative Object Manipulation using Bio-Hybrid Algorithms
-2026
+Ganoy, R., & Cursat, N. (2026). Cooperative object manipulation using bio-hybrid algorithms.
 ```
